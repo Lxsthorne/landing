@@ -4,22 +4,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Coming Soon</title>
-  <meta name="description" content="Coming Soon countdown splash page" />
-  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600|Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous" />
+  <meta name="description" content="Coming Soon countdown splash page">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600|Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="splashbw.js"></script>
 </head>
 
 <body>
+  <header id="header">
+    <img id="logo-image"src="WebDesignHubLogo.png" alt="The Web Design Hub"/>  
+  </header>
   <div class="wrapper">
     <div id="cd-wrap">
       <figure>
-        <!--<div id="dbox"> -->
           <div>
             <h2 id="days"></h2>
-          </div>
-      <!--  </div>   -->
+        </div>
         <figcaption id="main">Days</figcaption>
       </figure>
       <div class="row" >
@@ -69,25 +71,17 @@
 
   <footer>
     <div class="contact">
-    <div>
-      <ul class="social">
-        <li><a href="https://www.facebook.com/" target="_blank"><div class="circle"><span title="Facebook"><i class="fa fa-facebook"></i></span></div></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank"><div class="circle"><span title="Instagram"><i class="fa fa-instagram"></i></span></div></a></li>
-        <li><a href="https://www.twitter.com/" target="_blank"><div class="circle"><span title="Twitter"><i class="fa fa-twitter"></i></span></div></a></li>
-        <li><a href="https://www.youtube.com/" target="_blank"><div class="circle"><span title="Youtube"><i class="fa fa-youtube"></i></span></div></a></li>
-        <li><a href="https://www.linkedin.com/" target="_blank"><div class="circle"><span title="LinkedIn"><i class="fa fa-linkedin-square"></i></span></div></a></li>
-      </ul>
-    </div>
-    <div class="copy">
-      <h5>&copy; 2018 Powered by <strong>TheWebDesignHub</strong></h5>
-    </div>
+      <div class="copy">
+        <h5>&copy; 2018 Powered by <strong>TheWebDesignHub</strong></h5>
+      </div>
     </div>
     <div class="sub">
       <form id="test-form" action="mailto:anonymous@fakesite.com" method="post" enctype="text/plain">
-        <label for="email" id="email-label"><p><span class="dash">&horbar;</span> Subscribe to Newsletter <span class="dash">&horbar;</span></p></label>
-        <button type="submit" class="circle" id="submit-form"><span title="Send"><i class="fa fa-envelope"></i></span></button>
-        <input name="email_address" type="email" id="email" size="30" placeholder="enter your e-mail address...">
-      </form>
+      <label for="email" id="email-label"><p><span class="dash">&horbar;</span> Subscribe to Newsletter <span class="dash">&horbar;</span></p></label>
+      <button type="submit" class="circle" id="submit-form"><span title="Send"><i class="fa fa-envelope"></i></span></button>
+      <input name="email_address" type="email" id="email" size="30" placeholder="enter your e-mail address...">
+    </form>
+
     </div>
   </footer>
 </body>
