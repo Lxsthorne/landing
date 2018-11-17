@@ -142,7 +142,7 @@ i:hover {
   position: relative;
   display: flex;
   flex-direction: row;
-  font-size: 32px;
+  font-size: 30px;
   list-style: none;
   bottom: 24px;
 }
