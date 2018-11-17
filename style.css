@@ -132,7 +132,7 @@ figcaption {
 
 i {
   color: hsl(0, 1%, 18%);
-  vertical-align:sub;
+  vertical-align:middle;
 }
 i:hover {
   color: #296296;
