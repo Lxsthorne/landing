@@ -28,6 +28,10 @@ body {
   margin:10vh 10vw 10vh 10vw;
 }
 
+#logo-image {
+  height: 100%;
+}
+
 div#cd-wrap {
   font-family: 'Roboto';
   position: relative;
