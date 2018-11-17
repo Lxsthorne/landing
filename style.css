@@ -21,15 +21,15 @@ body {
   height: auto;
 }
 
+#logo-image {
+  height: 100%;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
   height: 100%;
   margin:10vh 10vw 10vh 10vw;
-}
-
-#logo-image {
-  height: 100%;
 }
 
 div#cd-wrap {
