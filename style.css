@@ -293,7 +293,7 @@ button#submit-form.circle {
   .sub {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
   }
 
