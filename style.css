@@ -294,7 +294,7 @@ button#submit-form.circle {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: auto;
   }
 
   input#email {
