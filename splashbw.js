@@ -1,5 +1,5 @@
 //Enable countdown
-var countDownDate = new Date("Jan 1, 2019 0:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2020 0:00:00").getTime();
 
 var x = setInterval(function() {
 
